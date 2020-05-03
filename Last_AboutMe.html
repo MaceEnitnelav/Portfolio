@@ -1,0 +1,60 @@
+<!DOCTYPE html> <!--This indicates that the document is written in HTML-->
+<html><!-- This is where all the code goes under-->
+
+  <head><!--This is where the heading is, which links the HTML document to Bootstrap for the CSS, and contains the navigation bar on the website.-->
+    <meta charset="utf-8">
+    <title></title> 
+    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css"><!--This links this HTML document to the CSS options and classes contained in Bootstrap.-->
+	  <!--Josh has helped me with linking the Bootstrap-->
+    <div class="container"><!--This class is utilized to prevent the navigation bar from touching the ends of the website, which is visually unappealing to the user.-->
+      <nav class="nav-pills nav-fill nav nav-item"><!--This creates the navigation bar, and includes features such as a fill to tell the user which page they're on and pills to seperate each link. The navigation bar is used to easily navigate between different pages of the website.-->
+        <a class="nav-link nav-item"href="index.html">Home</a><!--This is the home pill. The nav-link and nav-item creates a link in the pill and the navigation bar.-->
+        <a class="nav-link nav-item active"href="Last_AboutMe.html">About me</a><!--The active is included because the website is currently on the About Me page. This pill leads to the About Me page in the website, and the nav-link and nav-item creates the link and the navigation bar.--> 
+        <a class="nav-link nav-item"href="Last_ContactMe.html">My Contact Info</a><!--This pill leads to Contact Me page in the website, and the nav-link and nav-item creates the link and the navigation bar.-->
+        <a class="nav-link nav-item "href="Last_Projects.html">My CSP Projects</a><!--This pill leads to the Projects page in the website, and the nav-link and nav-item creates the link and the navigation bar.-->
+        <a class="nav-link nav-item"href="Last_Resume.html">My Resume</a><!--This pill leads to the Resume page in the website, and the nav-link and nav-item creates the link and the navigation bar.-->
+      </nav>
+    </div>  
+  </head>
+  <body>
+    <div class="jumbotron"><!--The jumbotron class is used to create the gray area found in the website. This first jumbotron contains the title of the whole page.-->
+      <div class="container"><!--This container creates borders within the code, which means text can't overflow out of the screen.-->
+        <h1>About Me</h1>   
+      </div>  
+    </div> 
+    <div class="container"><!--This container creates borders within the code, which means text can't overflow out of the screen.-->
+      <div class="main"><!--Indicates that this is the main body of text-->
+        <div class="row"><!--The class row is responsible for putting these two cards in a single row.-->
+          <div class="col-sm-5">
+            <img src="Images/mason.png" style="height:280px;width:300px;" alt="Mason Valentine">
+          </div>
+          <div class="col-sm-7">
+            <p>My name is Mason Valentine, and I'm a 9th grader at Dublin High School. I'm currently taking classes, which include PreCalculus, Advanced English, and Honors Chemistry.</p>
+            <p>My interests include swimming, basketball, football, video games, dogs, and eating. I enjoy eating good food on a daily basis, with my favorites being pizza, burgers, filet mignon, fried chicken, and teriyaki. However, since swimming is my passion and main sport, I can't eat too much of these things.</p>
+            <p>I love sports, and I watch football and basketball a lot. I support the Golden State Warriors and the San Francisco 49ers.</p>
+            <p>I'm a hard worker when I'm into a certain activity, such as sports or math. I enjoy reading classic novels such as Animal Farm, 1984, and Catcher in the Rye.</p>
+          </div>
+        </div>  
+      </div>
+    </div>       
+
+   <div class="jumbotron"><!--The jumbotron class is used to create the gray area found in the website. This second jumbotron contains the three images that reference my school and forms of communication.-->
+    <!--Anmol helped me decide which class to use-->
+      <div class="container"><!--The container class is used to create boundaries for the images-->
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="Images/gmail.png" alt="My Gmail" style="width:42px;height:42px;">
+            </div>
+          <div class="col-sm-4">  
+              <img src="Images/instagram.jpg" alt="Instagram" style="width:42px;height:42px;"> 
+          </div>
+          <div class="col-sm-4">
+            <a href="https://www.dublin.k12.ca.us/dhs">
+              <img src="Images/DHS2.png" alt="Dublin High School" style="width:42px;height:42px;">
+            </a>
+          </div>  
+        </div>  
+      </div>
+    </div>    
+  </body>
+</html>
